@@ -1,0 +1,4 @@
+build*/
+sdcard/
+nvs.txt
+*.bmp

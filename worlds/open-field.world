@@ -1,0 +1,11 @@
+# One access point in an open field: handy for checking path-loss fits.
+# Walk straight away from the AP and compare the fitted n with 2.0.
+name, Open Field
+origin, 39.5000000, -98.3500000
+start, 2, 0
+ap, FIELD, Test, 02:00:00:00:0B:10, 0, 0, 6, -30, 2.0
+noise_db, 2
+gps, on
+gps_fix_after_s, 3
+imu, on
+sd, on

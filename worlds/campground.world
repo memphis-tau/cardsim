@@ -1,0 +1,23 @@
+# CardSim world file
+# Positions are metres east (x) and north (y) of the origin.
+name, Sample Campground
+origin, 39.5000000, -98.3500000
+start, -20, -20
+
+# ap, label, ssid, bssid, x, y, channel [, rssi_at_1m_dbm, path_loss_n]
+ap, AP1, Guest, A4:2B:B0:00:01:10, 0, 0, 1
+ap, AP1, Staff, A4:2B:B0:00:01:11, 0, 0, 1
+ap, AP2, Guest, A4:2B:B0:00:02:10, -60, -50.35, 6
+ap, AP2, Staff, A4:2B:B0:00:02:11, -60, -50.35, 6
+ap, AP3, Guest, A4:2B:B0:00:03:10, 55, -45.3, 11, -34, 3.0
+ap, AP3, Staff, A4:2B:B0:00:03:11, 55, -45.3, 11, -34, 3.0
+ap, Store, "Camp Store", 02:00:00:00:0A:20, 25, 70, 11, -36, 2.9
+ap, Neighbor, "Neighbor ""5G""", 11:22:33:44:55:66, 150, 60, 1, -28, 2.6
+ap, Hidden, "", 02:00:00:00:0A:01, -120, 40, 6
+
+noise_db, 3
+floor_dbm, -92
+gps, on
+gps_fix_after_s, 8
+imu, on
+sd, on
